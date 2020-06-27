@@ -80,7 +80,7 @@ webpackJsonp([62865255398775],{
 	          { className: _HeroModule2.default.heroTextLeft },
 	          title && _react2.default.createElement(
 	            'h2',
-	            null,
+	            { className: _HeroModule2.default.title },
 	            title
 	          ),
 	          body.map(function (item, index) {
@@ -106,7 +106,7 @@ webpackJsonp([62865255398775],{
 	          { className: _HeroModule2.default.heroText },
 	          title && _react2.default.createElement(
 	            'h2',
-	            null,
+	            { className: _HeroModule2.default.title },
 	            title
 	          ),
 	          body.map(function (item, index) {
@@ -132,7 +132,7 @@ webpackJsonp([62865255398775],{
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"wrapper":"src-components-Hero----Hero-module---wrapper---1ihuP","wrapperLeft":"src-components-Hero----Hero-module---wrapperLeft---OJm3K","heroImageLeft":"src-components-Hero----Hero-module---heroImageLeft---3nKf8","heroImage":"src-components-Hero----Hero-module---heroImage---rPgTq","main":"src-components-Hero----Hero-module---main---19jD5","mainLeft":"src-components-Hero----Hero-module---mainLeft---2yZlg","body":"src-components-Hero----Hero-module---body---2eA8z"};
+	module.exports = {"wrapper":"src-components-Hero----Hero-module---wrapper---1ihuP","wrapperLeft":"src-components-Hero----Hero-module---wrapperLeft---OJm3K","heroImageLeft":"src-components-Hero----Hero-module---heroImageLeft---3nKf8","heroImage":"src-components-Hero----Hero-module---heroImage---rPgTq","main":"src-components-Hero----Hero-module---main---19jD5","mainLeft":"src-components-Hero----Hero-module---mainLeft---2yZlg","body":"src-components-Hero----Hero-module---body---2eA8z","title":"src-components-Hero----Hero-module---title---9bx6t"};
 
 /***/ }),
 
@@ -225,4 +225,4 @@ webpackJsonp([62865255398775],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-pages-o-que-e-a-bolha-jsx-5e6027fb2abde0b17e6f.js.map
+//# sourceMappingURL=component---src-pages-o-que-e-a-bolha-jsx-325e8326922afdaf25c9.js.map

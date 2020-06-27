@@ -10659,7 +10659,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
 	                { to: '/' },
-	                _react2.default.createElement('img', { className: _NavigationModule2.default.logo, width: '80px', src: _logo2.default, alt: _SiteConfig2.default.siteTitle })
+	                _react2.default.createElement('img', { className: _NavigationModule2.default.logo, width: '95px', src: _logo2.default, alt: _SiteConfig2.default.siteTitle })
 	              )
 	            )
 	          ),
@@ -10671,7 +10671,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	              null,
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
-	                { to: '/', activeClassName: 'active' },
+	                { to: '/' },
 	                'sua bolha'
 	              ),
 	              _react2.default.createElement(
@@ -11091,4 +11091,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-e4426c250fc5f3477386.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-bcc7cff2b31a2971d145.js.map

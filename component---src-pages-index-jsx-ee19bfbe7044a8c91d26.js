@@ -52,7 +52,7 @@ webpackJsonp([213534597649335],{
 	          { className: _HeroModule2.default.heroTextLeft },
 	          title && _react2.default.createElement(
 	            'h2',
-	            null,
+	            { className: _HeroModule2.default.title },
 	            title
 	          ),
 	          body.map(function (item, index) {
@@ -78,7 +78,7 @@ webpackJsonp([213534597649335],{
 	          { className: _HeroModule2.default.heroText },
 	          title && _react2.default.createElement(
 	            'h2',
-	            null,
+	            { className: _HeroModule2.default.title },
 	            title
 	          ),
 	          body.map(function (item, index) {
@@ -104,7 +104,7 @@ webpackJsonp([213534597649335],{
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"wrapper":"src-components-Hero----Hero-module---wrapper---1ihuP","wrapperLeft":"src-components-Hero----Hero-module---wrapperLeft---OJm3K","heroImageLeft":"src-components-Hero----Hero-module---heroImageLeft---3nKf8","heroImage":"src-components-Hero----Hero-module---heroImage---rPgTq","main":"src-components-Hero----Hero-module---main---19jD5","mainLeft":"src-components-Hero----Hero-module---mainLeft---2yZlg","body":"src-components-Hero----Hero-module---body---2eA8z"};
+	module.exports = {"wrapper":"src-components-Hero----Hero-module---wrapper---1ihuP","wrapperLeft":"src-components-Hero----Hero-module---wrapperLeft---OJm3K","heroImageLeft":"src-components-Hero----Hero-module---heroImageLeft---3nKf8","heroImage":"src-components-Hero----Hero-module---heroImage---rPgTq","main":"src-components-Hero----Hero-module---main---19jD5","mainLeft":"src-components-Hero----Hero-module---mainLeft---2yZlg","body":"src-components-Hero----Hero-module---body---2eA8z","title":"src-components-Hero----Hero-module---title---9bx6t"};
 
 /***/ }),
 
@@ -146,7 +146,7 @@ webpackJsonp([213534597649335],{
 	      { className: _HomeHeroModule2.default.heroText },
 	      _react2.default.createElement(
 	        'h2',
-	        null,
+	        { className: _HomeHeroModule2.default.title },
 	        'Qual \xE9 a sua bolha?'
 	      ),
 	      _react2.default.createElement(
@@ -177,7 +177,7 @@ webpackJsonp([213534597649335],{
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"wrapper":"src-components-HomeHero----HomeHero-module---wrapper---eAayj","heroImage":"src-components-HomeHero----HomeHero-module---heroImage---3ckKt","heroText":"src-components-HomeHero----HomeHero-module---heroText---2r0-4","body":"src-components-HomeHero----HomeHero-module---body---352eq"};
+	module.exports = {"wrapper":"src-components-HomeHero----HomeHero-module---wrapper---eAayj","heroImage":"src-components-HomeHero----HomeHero-module---heroImage---3ckKt","heroText":"src-components-HomeHero----HomeHero-module---heroText---2r0-4","body":"src-components-HomeHero----HomeHero-module---body---352eq","title":"src-components-HomeHero----HomeHero-module---title---1X7rc"};
 
 /***/ }),
 
@@ -238,4 +238,4 @@ webpackJsonp([213534597649335],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-pages-index-jsx-bf527166f7318e725143.js.map
+//# sourceMappingURL=component---src-pages-index-jsx-ee19bfbe7044a8c91d26.js.map
