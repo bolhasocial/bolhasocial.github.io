@@ -42234,6 +42234,7 @@ webpackJsonp([43947561610677],[
 	      case 'CIÊNCIA':
 	      case 'TECNOLOGIA':
 	      case 'JOGOS':
+	      case 'POLITICA':
 	        return '#5fa9ff';
 	
 	      case 'CARROS':
@@ -42246,8 +42247,6 @@ webpackJsonp([43947561610677],[
 	      case 'HUMOR':
 	        return '#9475d0';
 	
-	      case 'FITNESS':
-	      case 'ECONOMIA':
 	      case 'EDUCACAO':
 	      case 'SERIES E FILMES':
 	      case 'POP/ARTE':
@@ -42256,10 +42255,12 @@ webpackJsonp([43947561610677],[
 	
 	      case 'ALIMENTAÇÃO E SAÚDE':
 	      case 'NATUREZA':
-	      case 'POLITICA':
 	      case 'NOTÍCIAS':
 	      case 'CULINÁRIA':
 	      case 'DECORAÇÃO':
+	      case 'FITNESS':
+	      case 'ECONOMIA':
+	      case 'ESPORTE':
 	      default:
 	        return '#00cfb9';
 	    }
@@ -56162,4 +56163,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-bba39638c01550062212.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-f7791209778c620aaf89.js.map
