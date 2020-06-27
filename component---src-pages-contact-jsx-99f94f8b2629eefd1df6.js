@@ -1,6 +1,61 @@
 webpackJsonp([58411574672382],{
 
-/***/ 68:
+/***/ 72:
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2016 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+	
+	(function () {
+		'use strict';
+	
+		var hasOwn = {}.hasOwnProperty;
+	
+		function classNames () {
+			var classes = [];
+	
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+	
+				var argType = typeof arg;
+	
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg)) {
+					classes.push(classNames.apply(null, arg));
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+	
+			return classes.join(' ');
+		}
+	
+		if (typeof module !== 'undefined' && module.exports) {
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+
+
+/***/ }),
+
+/***/ 67:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11,9 +66,56 @@ webpackJsonp([58411574672382],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactReveal = __webpack_require__(23);
+	var _classnames = __webpack_require__(72);
 	
-	var _HeaderModule = __webpack_require__(83);
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	var _ContainerModule = __webpack_require__(83);
+	
+	var _ContainerModule2 = _interopRequireDefault(_ContainerModule);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Container = function Container(props) {
+	  var _cx;
+	
+	  var children = props.children;
+	
+	  var classes = (0, _classnames2.default)(_ContainerModule2.default.container, (_cx = {}, _cx[_ContainerModule2.default.text] = props.text, _cx));
+	  return _react2.default.createElement(
+	    'div',
+	    { className: classes },
+	    children
+	  );
+	};
+	
+	exports.default = Container;
+	module.exports = exports['default'];
+
+/***/ }),
+
+/***/ 83:
+/***/ (function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"container":"src-components-Container----Container-module---container---3KHiT","text":"src-components-Container----Container-module---text---2-KQ0"};
+
+/***/ }),
+
+/***/ 141:
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactReveal = __webpack_require__(29);
+	
+	var _HeaderModule = __webpack_require__(177);
 	
 	var _HeaderModule2 = _interopRequireDefault(_HeaderModule);
 	
@@ -37,7 +139,7 @@ webpackJsonp([58411574672382],{
 
 /***/ }),
 
-/***/ 83:
+/***/ 177:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -45,7 +147,7 @@ webpackJsonp([58411574672382],{
 
 /***/ }),
 
-/***/ 373:
+/***/ 376:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -60,11 +162,11 @@ webpackJsonp([58411574672382],{
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	var _Header = __webpack_require__(68);
+	var _Header = __webpack_require__(141);
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Container = __webpack_require__(111);
+	var _Container = __webpack_require__(67);
 	
 	var _Container2 = _interopRequireDefault(_Container);
 	
@@ -112,4 +214,4 @@ webpackJsonp([58411574672382],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-pages-contact-jsx-f8bc69896585da51db0c.js.map
+//# sourceMappingURL=component---src-pages-contact-jsx-99f94f8b2629eefd1df6.js.map

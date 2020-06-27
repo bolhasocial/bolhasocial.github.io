@@ -1,61 +1,65 @@
 {
   "assetsByChunkName": {
-    "path---what": [
-      "path---what-a0e39f21c11f6a62c5ab.js",
-      "path---what-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-time-jsx": [
+      "component---src-pages-time-jsx-33357bdd2fb4a0034b83.js",
+      "component---src-pages-time-jsx-33357bdd2fb4a0034b83.js.map"
     ],
     "path---cube-round-make-cubes-round": [
       "path---cube-round-make-cubes-round-5ab2212b9dc65e5c5ede.js",
       "path---cube-round-make-cubes-round-5ab2212b9dc65e5c5ede.js.map"
     ],
     "component---src-templates-project-jsx": [
-      "component---src-templates-project-jsx-54e217fa3dc4c184b583.js",
-      "component---src-templates-project-jsx-54e217fa3dc4c184b583.js.map"
+      "component---src-templates-project-jsx-72c4809d9da066892bf9.js",
+      "component---src-templates-project-jsx-72c4809d9da066892bf9.js.map"
     ],
     "path---results": [
       "path---results-a0e39f21c11f6a62c5ab.js",
       "path---results-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---time": [
+      "path---time-a0e39f21c11f6a62c5ab.js",
+      "path---time-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-results-jsx": [
       "component---src-pages-results-jsx-f7791209778c620aaf89.js",
       "component---src-pages-results-jsx-f7791209778c620aaf89.js.map"
     ],
-    "component---src-pages-what-jsx": [
-      "component---src-pages-what-jsx-6f702bc58942bf9cd37a.js",
-      "component---src-pages-what-jsx-6f702bc58942bf9cd37a.js.map"
-    ],
     "component---src-pages-contact-jsx": [
-      "component---src-pages-contact-jsx-f8bc69896585da51db0c.js",
-      "component---src-pages-contact-jsx-f8bc69896585da51db0c.js.map"
+      "component---src-pages-contact-jsx-99f94f8b2629eefd1df6.js",
+      "component---src-pages-contact-jsx-99f94f8b2629eefd1df6.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "component---src-pages-o-que-e-a-bolha-jsx": [
+      "component---src-pages-o-que-e-a-bolha-jsx-5e6027fb2abde0b17e6f.js",
+      "component---src-pages-o-que-e-a-bolha-jsx-5e6027fb2abde0b17e6f.js.map"
+    ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-e517cac740602ec0a61f.js",
-      "component---src-layouts-index-jsx-e517cac740602ec0a61f.js.map"
+      "component---src-layouts-index-jsx-e4426c250fc5f3477386.js",
+      "component---src-layouts-index-jsx-e4426c250fc5f3477386.js.map"
+    ],
+    "path---o-que-e-a-bolha": [
+      "path---o-que-e-a-bolha-a0e39f21c11f6a62c5ab.js",
+      "path---o-que-e-a-bolha-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
-    "component---src-pages-team-jsx": [
-      "component---src-pages-team-jsx-1c604f69b0ee40b2d92a.js",
-      "component---src-pages-team-jsx-1c604f69b0ee40b2d92a.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-bubble-jsx": [
-      "component---src-pages-bubble-jsx-09eb077cacec864967fb.js",
-      "component---src-pages-bubble-jsx-09eb077cacec864967fb.js.map"
+      "component---src-pages-bubble-jsx-9d939ca134dbbc592648.js",
+      "component---src-pages-bubble-jsx-9d939ca134dbbc592648.js.map"
     ],
     "commons": [
-      "commons-e9dc7e6c42c2a23ae999.js",
+      "commons-b549cd8519383635bef2.js",
       "build-js-styles.css",
-      "commons-e9dc7e6c42c2a23ae999.js.map",
+      "commons-b549cd8519383635bef2.js.map",
       "build-js-styles.css.map"
     ],
     "path---leko-arts-your-theme-creator": [
@@ -78,30 +82,26 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---team": [
-      "path---team-a0e39f21c11f6a62c5ab.js",
-      "path---team-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-share-jsx": [
-      "component---src-pages-share-jsx-e8f6ea3930177cfffee0.js",
-      "component---src-pages-share-jsx-e8f6ea3930177cfffee0.js.map"
+      "component---src-pages-share-jsx-03833e0250841a52b29e.js",
+      "component---src-pages-share-jsx-03833e0250841a52b29e.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-69f8b294a405b379045d.js",
-      "component---src-pages-index-jsx-69f8b294a405b379045d.js.map"
+      "component---src-pages-index-jsx-bf527166f7318e725143.js",
+      "component---src-pages-index-jsx-bf527166f7318e725143.js.map"
     ],
     "path---bubble": [
       "path---bubble-a0e39f21c11f6a62c5ab.js",
       "path---bubble-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-247e2c450811e2fd2f09.js",
+      "app-e02005b991f23457825f.js",
       "build-js-styles.css",
-      "app-247e2c450811e2fd2f09.js.map",
+      "app-e02005b991f23457825f.js.map",
       "build-js-styles.css.map"
     ],
     "path---smart-triangle-make-triangles-smart": [
