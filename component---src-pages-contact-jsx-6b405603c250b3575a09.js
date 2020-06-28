@@ -1,61 +1,6 @@
-webpackJsonp([143687897102401],{
+webpackJsonp([58411574672382],{
 
-/***/ 72:
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2016 Jed Watson.
-	  Licensed under the MIT License (MIT), see
-	  http://jedwatson.github.io/classnames
-	*/
-	/* global define */
-	
-	(function () {
-		'use strict';
-	
-		var hasOwn = {}.hasOwnProperty;
-	
-		function classNames () {
-			var classes = [];
-	
-			for (var i = 0; i < arguments.length; i++) {
-				var arg = arguments[i];
-				if (!arg) continue;
-	
-				var argType = typeof arg;
-	
-				if (argType === 'string' || argType === 'number') {
-					classes.push(arg);
-				} else if (Array.isArray(arg)) {
-					classes.push(classNames.apply(null, arg));
-				} else if (argType === 'object') {
-					for (var key in arg) {
-						if (hasOwn.call(arg, key) && arg[key]) {
-							classes.push(key);
-						}
-					}
-				}
-			}
-	
-			return classes.join(' ');
-		}
-	
-		if (typeof module !== 'undefined' && module.exports) {
-			module.exports = classNames;
-		} else if (true) {
-			// register as 'classnames', consistent with npm package name
-			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return classNames;
-			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.classNames = classNames;
-		}
-	}());
-
-
-/***/ }),
-
-/***/ 68:
+/***/ 69:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -66,7 +11,7 @@ webpackJsonp([143687897102401],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _classnames = __webpack_require__(72);
+	var _classnames = __webpack_require__(40);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
@@ -102,7 +47,7 @@ webpackJsonp([143687897102401],{
 
 /***/ }),
 
-/***/ 142:
+/***/ 145:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -115,7 +60,7 @@ webpackJsonp([143687897102401],{
 	
 	var _reactReveal = __webpack_require__(29);
 	
-	var _HeaderModule = __webpack_require__(179);
+	var _HeaderModule = __webpack_require__(181);
 	
 	var _HeaderModule2 = _interopRequireDefault(_HeaderModule);
 	
@@ -139,7 +84,7 @@ webpackJsonp([143687897102401],{
 
 /***/ }),
 
-/***/ 179:
+/***/ 181:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -147,7 +92,7 @@ webpackJsonp([143687897102401],{
 
 /***/ }),
 
-/***/ 379:
+/***/ 387:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -158,15 +103,15 @@ webpackJsonp([143687897102401],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactHelmet = __webpack_require__(22);
+	var _reactHelmet = __webpack_require__(17);
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	var _Header = __webpack_require__(142);
+	var _Header = __webpack_require__(145);
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Container = __webpack_require__(68);
+	var _Container = __webpack_require__(69);
 	
 	var _Container2 = _interopRequireDefault(_Container);
 	
@@ -180,15 +125,15 @@ webpackJsonp([143687897102401],{
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var About = function About() {
+	var Contact = function Contact() {
 	  return _react2.default.createElement(
 	    'div',
-	    { className: 'container about-container' },
-	    _react2.default.createElement(_reactHelmet2.default, { title: 'About | ' + _SiteConfig2.default.siteTitle }),
+	    { className: 'container contact-container' },
+	    _react2.default.createElement(_reactHelmet2.default, { title: 'Contact | ' + _SiteConfig2.default.siteTitle }),
 	    _react2.default.createElement(
 	      _Header2.default,
 	      null,
-	      'About'
+	      'Contact'
 	    ),
 	    _react2.default.createElement(
 	      _Container2.default,
@@ -196,7 +141,7 @@ webpackJsonp([143687897102401],{
 	      _react2.default.createElement(
 	        'h1',
 	        null,
-	        'Hi!'
+	        'Contact me!'
 	      ),
 	      _react2.default.createElement(
 	        'p',
@@ -208,10 +153,10 @@ webpackJsonp([143687897102401],{
 	  );
 	};
 	
-	exports.default = About;
+	exports.default = Contact;
 	module.exports = exports['default'];
 
 /***/ })
 
 });
-//# sourceMappingURL=component---src-pages-bubble-jsx-9d939ca134dbbc592648.js.map
+//# sourceMappingURL=component---src-pages-contact-jsx-6b405603c250b3575a09.js.map
