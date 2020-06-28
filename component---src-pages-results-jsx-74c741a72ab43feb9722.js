@@ -44069,7 +44069,8 @@ webpackJsonp([43947561610677],[
 	'use strict';
 	
 	exports.__esModule = true;
-	exports.default = CategoriesSlider;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
 	var _react = __webpack_require__(1);
 	
@@ -44089,113 +44090,135 @@ webpackJsonp([43947561610677],[
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function CategoriesSlider() {
-	  var _this = this;
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	  var settings = {
-	    infinite: true,
-	    speed: 500,
-	    slidesToShow: 1,
-	    slidesToScroll: 1
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var CategoriesSlider = function (_Component) {
+	  _inherits(CategoriesSlider, _Component);
+	
+	  function CategoriesSlider() {
+	    _classCallCheck(this, CategoriesSlider);
+	
+	    return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+	  }
+	
+	  CategoriesSlider.prototype.render = function render() {
+	    var _this2 = this;
+	
+	    var settings = {
+	      infinite: true,
+	      speed: 500,
+	      slidesToShow: 1,
+	      slidesToScroll: 1
+	    };
+	
+	    var descriptions = [{
+	      title: 'ALIMENTAÇÃO',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como alimentação, saúde, nutrição, alimentação saudável, comida, receitas, vegano entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'CARROS',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como pneus, automóveis, quatro rodas, carro, câmbio, motor, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'CIÊNCIA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como ciência, pesquisa, química, laboratório, testes, artigos acadêmicos, lattes, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'DECORAÇÃO',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como decoração, papel de parede, pantone, revista de decoração, casa vogue, iluminação, escritório, arquiteto, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'ECONOMIA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como economia, poupança, financeiro, câmbio, dólar, Bovespa, bolsa de valores, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'EDUCAÇÃO',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como educação, ensino, ensino à distância, universidade, ensino médio, sala de aula, aprendizado, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'ESOTERISMO',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como esoterismo, signos, horóscopo, mapa astral, zodíaco, tarot, wicca, thelema, Aleister Crawley, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'ESPORTES',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como esportes, vôlei, basquete, futebol, olimpíadas, tênis, jogadores, copa do mundo, e-sports, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'FACEBOOK',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Facebook já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da plataforma.'
+	    }, {
+	      title: 'INSTAGRAM',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Instagram já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto datitle:  plataforma.'
+	    }, {
+	      title: 'TWITTER',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Twitter já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da microplataforma.'
+	    }, {
+	      title: 'YOUTUBE',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave YouTube já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da plataforma de vídeos.'
+	    }, {
+	      title: 'JOGOS',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como jogo, vídeo game, jogatina, wii, Xbox, Playstation, poker, resta um, Blizzard, multiplayer, MMPOG, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'LINKEDIN',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Linkedin já condiciona a localização de que o conteúdo daquela página é sobre a rede social de profissionais ou o que conteúdo de acesso veio direto da plataforma.'
+	    }, {
+	      title: 'MODA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como moda, estilo, desfile, coleção, fashion week, modelos, passarela, fashion, primavera-verão, outono-inverno, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'NATUREZA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como natureza, montanhas, sustentabilidade, coleção, oceano, mares, animal planet, florestas, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'NOTÍCIAS',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados.  Nesta categoria específica, foram concentrados os principais veículos de notícias do país como G1, Folha de São Paulo, Estadão, Uol, O Dia, O Extra, entre outros. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'POLÍTICA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como política, eleições, presidente, lava jato, deputado, voto, candidato, vereador, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'SÉRIES E FILMES',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como séries, filmes, Netflix, TNT, AXN, universal, crackle, Paramount, telecine, warner, omelete, HBO, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
+	    }, {
+	      title: 'SEXO',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como sexo, pornhub, oral, contos eróticos, xvideos, brazzers, brasileirinhas filmes, tushy, porntube, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
+	    }, {
+	      title: 'TECNOLOGIA',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como tecnologia, imasters, cibercultura, computador, TI, celular, intel, tech, tecnologia da informação, machine learning, computador entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'TV  e CELEBRIDADES',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como tv, celebridades, ator, purepeople, rede tv, atriz, blastingnews, hugo gloss, globo, E!, globo.com, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
+	    }, {
+	      title: 'VIAGENS',
+	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como viagens, mochilão, LATAM, GOL, AZUL, hotel urbano, Europa, Estados Unidos, América Latina, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
+	    }];
+	
+	    return _react2.default.createElement(
+	      'div',
+	      { className: _CategoriesSliderModule2.default.sliderWrapper },
+	      _react2.default.createElement(
+	        'button',
+	        { className: _CategoriesSliderModule2.default.prevArrow, onClick: function onClick() {
+	            return _this2.slider.slickPrev();
+	          } },
+	        '<'
+	      ),
+	      _react2.default.createElement(
+	        'button',
+	        { className: _CategoriesSliderModule2.default.nextArrow, onClick: function onClick() {
+	            return _this2.slider.slickNext();
+	          } },
+	        '>'
+	      ),
+	      _react2.default.createElement(
+	        _reactSlick2.default,
+	        _extends({ ref: function ref(c) {
+	            return _this2.slider = c;
+	          } }, settings),
+	        descriptions.map(function (item) {
+	          return _react2.default.createElement(_CategoryDescription2.default, { title: item.title, description: item.description });
+	        })
+	      )
+	    );
 	  };
 	
-	  var descriptions = [{
-	    title: 'ALIMENTAÇÃO',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como alimentação, saúde, nutrição, alimentação saudável, comida, receitas, vegano entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'CARROS',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como pneus, automóveis, quatro rodas, carro, câmbio, motor, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'CIÊNCIA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como ciência, pesquisa, química, laboratório, testes, artigos acadêmicos, lattes, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'DECORAÇÃO',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como decoração, papel de parede, pantone, revista de decoração, casa vogue, iluminação, escritório, arquiteto, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'ECONOMIA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como economia, poupança, financeiro, câmbio, dólar, Bovespa, bolsa de valores, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'EDUCAÇÃO',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como educação, ensino, ensino à distância, universidade, ensino médio, sala de aula, aprendizado, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'ESOTERISMO',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como esoterismo, signos, horóscopo, mapa astral, zodíaco, tarot, wicca, thelema, Aleister Crawley, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'ESPORTES',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como esportes, vôlei, basquete, futebol, olimpíadas, tênis, jogadores, copa do mundo, e-sports, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'FACEBOOK',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Facebook já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da plataforma.'
-	  }, {
-	    title: 'INSTAGRAM',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Instagram já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto datitle:  plataforma.'
-	  }, {
-	    title: 'TWITTER',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Twitter já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da microplataforma.'
-	  }, {
-	    title: 'YOUTUBE',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave YouTube já condiciona a localização de que o conteúdo daquela página é sobre a rede social ou o conteúdo de acesso veio direto da plataforma de vídeos.'
-	  }, {
-	    title: 'JOGOS',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como jogo, vídeo game, jogatina, wii, Xbox, Playstation, poker, resta um, Blizzard, multiplayer, MMPOG, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'LINKEDIN',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. A palavra-chave Linkedin já condiciona a localização de que o conteúdo daquela página é sobre a rede social de profissionais ou o que conteúdo de acesso veio direto da plataforma.'
-	  }, {
-	    title: 'MODA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como moda, estilo, desfile, coleção, fashion week, modelos, passarela, fashion, primavera-verão, outono-inverno, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'NATUREZA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como natureza, montanhas, sustentabilidade, coleção, oceano, mares, animal planet, florestas, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'NOTÍCIAS',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados.  Nesta categoria específica, foram concentrados os principais veículos de notícias do país como G1, Folha de São Paulo, Estadão, Uol, O Dia, O Extra, entre outros. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'POLÍTICA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como política, eleições, presidente, lava jato, deputado, voto, candidato, vereador, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'SÉRIES E FILMES',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como séries, filmes, Netflix, TNT, AXN, universal, crackle, Paramount, telecine, warner, omelete, HBO, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
-	  }, {
-	    title: 'SEXO',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como sexo, pornhub, oral, contos eróticos, xvideos, brazzers, brasileirinhas filmes, tushy, porntube, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
-	  }, {
-	    title: 'TECNOLOGIA',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como tecnologia, imasters, cibercultura, computador, TI, celular, intel, tech, tecnologia da informação, machine learning, computador entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'TV  e CELEBRIDADES',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como tv, celebridades, ator, purepeople, rede tv, atriz, blastingnews, hugo gloss, globo, E!, globo.com, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
-	  }, {
-	    title: 'VIAGENS',
-	    description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como viagens, mochilão, LATAM, GOL, AZUL, hotel urbano, Europa, Estados Unidos, América Latina, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dostitle:  sites.'
-	  }];
+	  return CategoriesSlider;
+	}(_react.Component);
 	
-	  return _react2.default.createElement(
-	    'div',
-	    { className: _CategoriesSliderModule2.default.sliderWrapper },
-	    _react2.default.createElement(
-	      'button',
-	      { className: _CategoriesSliderModule2.default.prevArrow, onClick: function onClick() {
-	          return _this.slider.slickPrev();
-	        } },
-	      '<'
-	    ),
-	    _react2.default.createElement(
-	      'button',
-	      { className: _CategoriesSliderModule2.default.nextArrow, onClick: function onClick() {
-	          return _this.slider.slickNext();
-	        } },
-	      '>'
-	    ),
-	    _react2.default.createElement(
-	      _reactSlick2.default,
-	      settings,
-	      descriptions.map(function (item) {
-	        return _react2.default.createElement(_CategoryDescription2.default, { title: item.title, description: item.description });
-	      })
-	    )
-	  );
-	}
+	exports.default = CategoriesSlider;
 	module.exports = exports['default'];
 
 /***/ }),
@@ -60254,4 +60277,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-e4b1bb06556089c196d6.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-74c741a72ab43feb9722.js.map
