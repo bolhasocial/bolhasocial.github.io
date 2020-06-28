@@ -11017,13 +11017,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	function MainLayout(_ref) {
 	  var children = _ref.children;
 	
-	  var _useState = (0, _react.useState)(typeof window !== 'undefined' && window.location.pathname === '/results/'),
-	      isResults = _useState[0],
-	      setIsResults = _useState[1];
-	
-	  window.onhashchange = function () {
-	    setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
-	  };
+	  if (typeof window !== 'undefined') {
+	    window.onhashchange = function () {
+	      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
+	    };
+	  }
 	
 	  return _react2.default.createElement(
 	    _react.Fragment,
@@ -11039,7 +11037,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	    _react2.default.createElement(
 	      _useResultContext.ResultsContextProvider,
 	      null,
-	      isResults ? _react2.default.createElement(_NavigationResults2.default, null) : _react2.default.createElement(_Navigation2.default, null),
+	      typeof window !== 'undefined' && window.location.pathname === '/results/' ? _react2.default.createElement(_NavigationResults2.default, null) : _react2.default.createElement(_Navigation2.default, null),
 	      children()
 	    )
 	  );
@@ -11106,4 +11104,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-9025a0bbfc0f1070241e.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-9443d01b7aa093a3ddf8.js.map
