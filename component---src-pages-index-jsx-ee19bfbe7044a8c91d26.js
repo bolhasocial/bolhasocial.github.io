@@ -1,6 +1,6 @@
 webpackJsonp([213534597649335],{
 
-/***/ 748:
+/***/ 752:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/hero.132f1974.png";
@@ -108,7 +108,7 @@ webpackJsonp([213534597649335],{
 
 /***/ }),
 
-/***/ 375:
+/***/ 398:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -125,11 +125,11 @@ webpackJsonp([213534597649335],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _hero = __webpack_require__(748);
+	var _hero = __webpack_require__(752);
 	
 	var _hero2 = _interopRequireDefault(_hero);
 	
-	var _HomeHeroModule = __webpack_require__(511);
+	var _HomeHeroModule = __webpack_require__(534);
 	
 	var _HomeHeroModule2 = _interopRequireDefault(_HomeHeroModule);
 	
@@ -173,7 +173,7 @@ webpackJsonp([213534597649335],{
 
 /***/ }),
 
-/***/ 511:
+/***/ 534:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -181,7 +181,7 @@ webpackJsonp([213534597649335],{
 
 /***/ }),
 
-/***/ 388:
+/***/ 411:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -200,7 +200,7 @@ webpackJsonp([213534597649335],{
 	
 	var _Hero2 = _interopRequireDefault(_Hero);
 	
-	var _HomeHero = __webpack_require__(375);
+	var _HomeHero = __webpack_require__(398);
 	
 	var _HomeHero2 = _interopRequireDefault(_HomeHero);
 	

@@ -7,7 +7,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 368:
+/***/ 391:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20,7 +20,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _index = __webpack_require__(384);
+	var _index = __webpack_require__(407);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -38,7 +38,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 504:
+/***/ 527:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Copyright (c) 2017 Adobe Systems Incorporated. All rights reserved.
@@ -607,7 +607,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 663:
+/***/ 686:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -745,7 +745,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 664:
+/***/ 687:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -754,22 +754,22 @@ webpackJsonp([79611799117203,60335399758886],{
 	  value: true
 	});
 	exports['default'] = {
-	  slide: __webpack_require__(675),
-	  stack: __webpack_require__(676),
-	  elastic: __webpack_require__(668),
-	  bubble: __webpack_require__(667),
-	  push: __webpack_require__(670),
-	  pushRotate: __webpack_require__(671),
-	  scaleDown: __webpack_require__(673),
-	  scaleRotate: __webpack_require__(674),
-	  fallDown: __webpack_require__(669),
-	  reveal: __webpack_require__(672)
+	  slide: __webpack_require__(698),
+	  stack: __webpack_require__(699),
+	  elastic: __webpack_require__(691),
+	  bubble: __webpack_require__(690),
+	  push: __webpack_require__(693),
+	  pushRotate: __webpack_require__(694),
+	  scaleDown: __webpack_require__(696),
+	  scaleRotate: __webpack_require__(697),
+	  fallDown: __webpack_require__(692),
+	  reveal: __webpack_require__(695)
 	};
 	module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 665:
+/***/ 688:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -901,7 +901,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 666:
+/***/ 689:
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -1003,15 +1003,15 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _baseStyles = __webpack_require__(666);
+	var _baseStyles = __webpack_require__(689);
 	
 	var _baseStyles2 = _interopRequireDefault(_baseStyles);
 	
-	var _BurgerIcon = __webpack_require__(663);
+	var _BurgerIcon = __webpack_require__(686);
 	
 	var _BurgerIcon2 = _interopRequireDefault(_BurgerIcon);
 	
-	var _CrossIcon = __webpack_require__(665);
+	var _CrossIcon = __webpack_require__(688);
 	
 	var _CrossIcon2 = _interopRequireDefault(_CrossIcon);
 	
@@ -1373,7 +1373,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 667:
+/***/ 690:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1489,7 +1489,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 668:
+/***/ 691:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1589,7 +1589,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 669:
+/***/ 692:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1641,7 +1641,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 670:
+/***/ 693:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1680,7 +1680,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 671:
+/***/ 694:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1722,7 +1722,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 672:
+/***/ 695:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1801,7 +1801,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 673:
+/***/ 696:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1842,7 +1842,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 674:
+/***/ 697:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1884,7 +1884,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 675:
+/***/ 698:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1906,7 +1906,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 676:
+/***/ 699:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1962,7 +1962,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	exports['default'] = function () {
 	  var Snap = undefined;
 	  try {
-	    Snap = __webpack_require__(719);
+	    Snap = __webpack_require__(742);
 	  } finally {
 	    return Snap;
 	  }
@@ -1972,7 +1972,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 678:
+/***/ 701:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2001,7 +2001,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _raf2 = _interopRequireDefault(_raf);
 	
-	var _shouldUpdate2 = __webpack_require__(679);
+	var _shouldUpdate2 = __webpack_require__(702);
 	
 	var _shouldUpdate3 = _interopRequireDefault(_shouldUpdate2);
 	
@@ -2333,7 +2333,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 679:
+/***/ 702:
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -2406,10 +2406,10 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 719:
+/***/ 742:
 /***/ (function(module, exports, __webpack_require__) {
 
-	window.eve = __webpack_require__(504)
+	window.eve = __webpack_require__(527)
 	
 	// Copyright (c) 2017 Adobe Systems Incorporated. All rights reserved.
 	//
@@ -10558,34 +10558,34 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 357:
+/***/ 380:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/logo.9c0ade52.png";
 
 /***/ }),
 
-/***/ 657:
+/***/ 680:
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
 
-/***/ 376:
+/***/ 399:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	__webpack_require__(657);
+	__webpack_require__(680);
 	
 	var _react = __webpack_require__(1);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactHeadroom = __webpack_require__(678);
+	var _reactHeadroom = __webpack_require__(701);
 	
 	var _reactHeadroom2 = _interopRequireDefault(_reactHeadroom);
 	
@@ -10593,17 +10593,17 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
-	var _reactBurgerMenu = __webpack_require__(664);
+	var _reactBurgerMenu = __webpack_require__(687);
 	
 	var _SiteConfig = __webpack_require__(10);
 	
 	var _SiteConfig2 = _interopRequireDefault(_SiteConfig);
 	
-	var _logo = __webpack_require__(357);
+	var _logo = __webpack_require__(380);
 	
 	var _logo2 = _interopRequireDefault(_logo);
 	
-	var _NavigationModule = __webpack_require__(512);
+	var _NavigationModule = __webpack_require__(535);
 	
 	var _NavigationModule2 = _interopRequireDefault(_NavigationModule);
 	
@@ -10671,13 +10671,13 @@ webpackJsonp([79611799117203,60335399758886],{
 	              null,
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
-	                { to: '/' },
-	                'sua bolha'
+	                { to: '/o-que-e-a-bolha', activeClassName: 'active' },
+	                'o que \xE9'
 	              ),
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
-	                { to: '/o-que-e-a-bolha', activeClassName: 'active' },
-	                'o que \xE9'
+	                { to: '/' },
+	                'sua bolha'
 	              ),
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
@@ -10741,7 +10741,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 512:
+/***/ 535:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -10749,7 +10749,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 377:
+/***/ 400:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10773,11 +10773,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _SiteConfig2 = _interopRequireDefault(_SiteConfig);
 	
-	var _logo = __webpack_require__(357);
+	var _logo = __webpack_require__(380);
 	
 	var _logo2 = _interopRequireDefault(_logo);
 	
-	var _NavigationResultsModule = __webpack_require__(513);
+	var _NavigationResultsModule = __webpack_require__(536);
 	
 	var _NavigationResultsModule2 = _interopRequireDefault(_NavigationResultsModule);
 	
@@ -10785,7 +10785,9 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function NavigationResults() {
+	function NavigationResults(_ref) {
+	  var showDefaultNavigation = _ref.showDefaultNavigation;
+	
 	  var _useResultsContext = (0, _useResultContext.useResultsContext)(),
 	      isComparative = _useResultsContext.isComparative,
 	      setIsComparative = _useResultsContext.setIsComparative;
@@ -10804,7 +10806,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	        { className: _NavigationResultsModule2.default.name },
 	        _react2.default.createElement(
 	          'span',
-	          null,
+	          { onClick: showDefaultNavigation },
 	          _react2.default.createElement(
 	            _gatsbyLink2.default,
 	            { to: '/' },
@@ -10832,7 +10834,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 513:
+/***/ 536:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -10959,28 +10961,28 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 761:
+/***/ 765:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/apple-touch-icon.a69e8661.png";
 
 /***/ }),
 
-/***/ 762:
+/***/ 766:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/favicon.a69e8661.png";
 
 /***/ }),
 
-/***/ 384:
+/***/ 407:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	__webpack_require__(658);
+	__webpack_require__(681);
 	
 	var _react = __webpack_require__(1);
 	
@@ -10990,11 +10992,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	var _Navigation = __webpack_require__(376);
+	var _Navigation = __webpack_require__(399);
 	
 	var _Navigation2 = _interopRequireDefault(_Navigation);
 	
-	var _NavigationResults = __webpack_require__(377);
+	var _NavigationResults = __webpack_require__(400);
 	
 	var _NavigationResults2 = _interopRequireDefault(_NavigationResults);
 	
@@ -11004,11 +11006,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _SEO2 = _interopRequireDefault(_SEO);
 	
-	var _appleTouchIcon = __webpack_require__(761);
+	var _appleTouchIcon = __webpack_require__(765);
 	
 	var _appleTouchIcon2 = _interopRequireDefault(_appleTouchIcon);
 	
-	var _favicon = __webpack_require__(762);
+	var _favicon = __webpack_require__(766);
 	
 	var _favicon2 = _interopRequireDefault(_favicon);
 	
@@ -11025,11 +11027,19 @@ webpackJsonp([79611799117203,60335399758886],{
 	    window.onhashchange = function () {
 	      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
 	    };
+	
+	    window.onpopstate = function (event) {
+	      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
+	    };
 	  }
 	
 	  if (isResults === null) {
 	    setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
 	    return null;
+	  }
+	
+	  function showDefaultNavigation() {
+	    setIsResults(false);
 	  }
 	
 	  return _react2.default.createElement(
@@ -11046,7 +11056,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	    _react2.default.createElement(
 	      _useResultContext.ResultsContextProvider,
 	      null,
-	      isResults ? _react2.default.createElement(_NavigationResults2.default, null) : _react2.default.createElement(_Navigation2.default, null),
+	      isResults ? _react2.default.createElement(_NavigationResults2.default, { showDefaultNavigation: showDefaultNavigation }) : _react2.default.createElement(_Navigation2.default, null),
 	      children()
 	    )
 	  );
@@ -11057,7 +11067,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 658:
+/***/ 681:
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
@@ -11113,4 +11123,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-2f525eebb93343ff6f97.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-c981cf3db817809a289d.js.map

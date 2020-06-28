@@ -7,28 +7,28 @@ webpackJsonp([14108234947130],{
 
 /***/ }),
 
-/***/ 751:
+/***/ 755:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/juliana.28f79515.png";
 
 /***/ }),
 
-/***/ 753:
+/***/ 757:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/maris.3e948335.png";
 
 /***/ }),
 
-/***/ 754:
+/***/ 758:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/nando.0679603d.png";
 
 /***/ }),
 
-/***/ 378:
+/***/ 401:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -39,7 +39,7 @@ webpackJsonp([14108234947130],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProfileModule = __webpack_require__(515);
+	var _ProfileModule = __webpack_require__(538);
 	
 	var _ProfileModule2 = _interopRequireDefault(_ProfileModule);
 	
@@ -90,7 +90,7 @@ webpackJsonp([14108234947130],{
 
 /***/ }),
 
-/***/ 515:
+/***/ 538:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -98,7 +98,7 @@ webpackJsonp([14108234947130],{
 
 /***/ }),
 
-/***/ 383:
+/***/ 406:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -111,23 +111,23 @@ webpackJsonp([14108234947130],{
 	
 	var _reactReveal = __webpack_require__(29);
 	
-	var _TeamHeroModule = __webpack_require__(519);
+	var _TeamHeroModule = __webpack_require__(542);
 	
 	var _TeamHeroModule2 = _interopRequireDefault(_TeamHeroModule);
 	
-	var _Profile = __webpack_require__(378);
+	var _Profile = __webpack_require__(401);
 	
 	var _Profile2 = _interopRequireDefault(_Profile);
 	
-	var _nando = __webpack_require__(754);
+	var _nando = __webpack_require__(758);
 	
 	var _nando2 = _interopRequireDefault(_nando);
 	
-	var _maris = __webpack_require__(753);
+	var _maris = __webpack_require__(757);
 	
 	var _maris2 = _interopRequireDefault(_maris);
 	
-	var _juliana = __webpack_require__(751);
+	var _juliana = __webpack_require__(755);
 	
 	var _juliana2 = _interopRequireDefault(_juliana);
 	
@@ -167,7 +167,7 @@ webpackJsonp([14108234947130],{
 
 /***/ }),
 
-/***/ 519:
+/***/ 542:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -175,7 +175,7 @@ webpackJsonp([14108234947130],{
 
 /***/ }),
 
-/***/ 392:
+/***/ 415:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -198,7 +198,7 @@ webpackJsonp([14108234947130],{
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _TeamHero = __webpack_require__(383);
+	var _TeamHero = __webpack_require__(406);
 	
 	var _TeamHero2 = _interopRequireDefault(_TeamHero);
 	
