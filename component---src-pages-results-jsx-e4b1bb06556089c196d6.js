@@ -44069,9 +44069,6 @@ webpackJsonp([43947561610677],[
 	'use strict';
 	
 	exports.__esModule = true;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
 	exports.default = CategoriesSlider;
 	
 	var _react = __webpack_require__(1);
@@ -44192,9 +44189,7 @@ webpackJsonp([43947561610677],[
 	    ),
 	    _react2.default.createElement(
 	      _reactSlick2.default,
-	      _extends({ ref: function ref(c) {
-	          return _this.slider = c;
-	        } }, settings),
+	      settings,
 	      descriptions.map(function (item) {
 	        return _react2.default.createElement(_CategoryDescription2.default, { title: item.title, description: item.description });
 	      })
@@ -60259,4 +60254,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-51b0e73fab40b85c57ac.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-e4b1bb06556089c196d6.js.map
