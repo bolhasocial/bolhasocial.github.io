@@ -1,6 +1,6 @@
 webpackJsonp([213534597649335],{
 
-/***/ 725:
+/***/ 748:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/hero.132f1974.png";
@@ -125,7 +125,7 @@ webpackJsonp([213534597649335],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _hero = __webpack_require__(725);
+	var _hero = __webpack_require__(748);
 	
 	var _hero2 = _interopRequireDefault(_hero);
 	

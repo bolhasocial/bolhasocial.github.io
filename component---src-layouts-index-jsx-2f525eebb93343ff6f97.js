@@ -10959,14 +10959,14 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 738:
+/***/ 761:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/apple-touch-icon.a69e8661.png";
 
 /***/ }),
 
-/***/ 739:
+/***/ 762:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/favicon.a69e8661.png";
@@ -11004,11 +11004,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _SEO2 = _interopRequireDefault(_SEO);
 	
-	var _appleTouchIcon = __webpack_require__(738);
+	var _appleTouchIcon = __webpack_require__(761);
 	
 	var _appleTouchIcon2 = _interopRequireDefault(_appleTouchIcon);
 	
-	var _favicon = __webpack_require__(739);
+	var _favicon = __webpack_require__(762);
 	
 	var _favicon2 = _interopRequireDefault(_favicon);
 	
@@ -11017,10 +11017,19 @@ webpackJsonp([79611799117203,60335399758886],{
 	function MainLayout(_ref) {
 	  var children = _ref.children;
 	
+	  var _useState = (0, _react.useState)(null),
+	      isResults = _useState[0],
+	      setIsResults = _useState[1];
+	
 	  if (typeof window !== 'undefined') {
 	    window.onhashchange = function () {
 	      setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
 	    };
+	  }
+	
+	  if (isResults === null) {
+	    setIsResults(typeof window !== 'undefined' && window.location.pathname === '/results/');
+	    return null;
 	  }
 	
 	  return _react2.default.createElement(
@@ -11037,7 +11046,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	    _react2.default.createElement(
 	      _useResultContext.ResultsContextProvider,
 	      null,
-	      typeof window !== 'undefined' && window.location.pathname === '/results/' ? _react2.default.createElement(_NavigationResults2.default, null) : _react2.default.createElement(_Navigation2.default, null),
+	      isResults ? _react2.default.createElement(_NavigationResults2.default, null) : _react2.default.createElement(_Navigation2.default, null),
 	      children()
 	    )
 	  );
@@ -11104,4 +11113,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-9443d01b7aa093a3ddf8.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-2f525eebb93343ff6f97.js.map
