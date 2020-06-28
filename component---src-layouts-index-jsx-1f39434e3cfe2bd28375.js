@@ -10792,6 +10792,8 @@ webpackJsonp([79611799117203,60335399758886],{
 	      isComparative = _useResultsContext.isComparative,
 	      setIsComparative = _useResultsContext.setIsComparative;
 	
+	  var isMobile = window.innerWidth < 770;
+	
 	  function toggleComparative() {
 	    setIsComparative(!isComparative);
 	  }
@@ -10814,7 +10816,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	          )
 	        )
 	      ),
-	      _react2.default.createElement(
+	      !isMobile && _react2.default.createElement(
 	        'nav',
 	        { className: _NavigationResultsModule2.default.navigation },
 	        _react2.default.createElement(
@@ -11123,4 +11125,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-c981cf3db817809a289d.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-1f39434e3cfe2bd28375.js.map

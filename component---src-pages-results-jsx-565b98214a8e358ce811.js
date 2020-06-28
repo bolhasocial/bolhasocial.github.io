@@ -45215,6 +45215,8 @@ webpackJsonp([43947561610677],[
 	  var _useResultsContext = (0, _useResultContext.useResultsContext)(),
 	      isComparative = _useResultsContext.isComparative;
 	
+	  var isMobile = window.innerWidth < 770;
+	
 	  function updateData(data) {
 	    setLoading(false);
 	    setUserData(data);
@@ -45256,7 +45258,7 @@ webpackJsonp([43947561610677],[
 	          href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
 	        })
 	      ),
-	      isComparative ? _react2.default.createElement(_Comparative2.default, { generalData: generalData, historyData: userData }) : _react2.default.createElement(_ResultsHero2.default, { historyGist: userData }),
+	      isComparative || isMobile ? _react2.default.createElement(_Comparative2.default, { generalData: generalData, historyData: userData }) : _react2.default.createElement(_ResultsHero2.default, { historyGist: userData }),
 	      _react2.default.createElement(_Footer2.default, null)
 	    );
 	  }
@@ -60680,4 +60682,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-3f14a1c72999499a470c.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-565b98214a8e358ce811.js.map
