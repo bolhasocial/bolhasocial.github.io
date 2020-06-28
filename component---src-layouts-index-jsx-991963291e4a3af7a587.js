@@ -10681,11 +10681,6 @@ webpackJsonp([79611799117203,60335399758886],{
 	              ),
 	              _react2.default.createElement(
 	                _gatsbyLink2.default,
-	                { to: '/contato', activeClassName: 'active' },
-	                'contato'
-	              ),
-	              _react2.default.createElement(
-	                _gatsbyLink2.default,
 	                { to: '/compartilhe', activeClassName: 'active' },
 	                'compartilhe'
 	              ),
@@ -10693,6 +10688,11 @@ webpackJsonp([79611799117203,60335399758886],{
 	                _gatsbyLink2.default,
 	                { to: '/time', activeClassName: 'active' },
 	                'equipe'
+	              ),
+	              _react2.default.createElement(
+	                _gatsbyLink2.default,
+	                { to: '/contato', activeClassName: 'active' },
+	                'contato'
 	              )
 	            )
 	          )
@@ -10732,13 +10732,6 @@ webpackJsonp([79611799117203,60335399758886],{
 	            ),
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
-	              { to: '/contato', activeClassName: 'active', onClick: function onClick() {
-	                  return _this2.closeMenu();
-	                } },
-	              'equipe'
-	            ),
-	            _react2.default.createElement(
-	              _gatsbyLink2.default,
 	              { to: '/compartilhe', activeClassName: 'active', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
@@ -10747,6 +10740,13 @@ webpackJsonp([79611799117203,60335399758886],{
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
 	              { to: '/time', activeClassName: 'active', onClick: function onClick() {
+	                  return _this2.closeMenu();
+	                } },
+	              'equipe'
+	            ),
+	            _react2.default.createElement(
+	              _gatsbyLink2.default,
+	              { to: '/contato', activeClassName: 'active', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
 	              'equipe'
@@ -11147,4 +11147,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-2538a6196d453159e671.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-991963291e4a3af7a587.js.map
