@@ -10714,13 +10714,6 @@ webpackJsonp([79611799117203,60335399758886],{
 	            { isOpen: this.state.menuOpen, onStateChange: this.handleStateChange, width: '100%' },
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
-	              { to: '/o-que-e-a-bolha', activeClassName: 'active', onClick: function onClick() {
-	                  return _this2.closeMenu();
-	                } },
-	              'o que \xE9'
-	            ),
-	            _react2.default.createElement(
-	              _gatsbyLink2.default,
 	              { to: '/', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
@@ -10729,6 +10722,13 @@ webpackJsonp([79611799117203,60335399758886],{
 	                null,
 	                _SiteConfig2.default.siteTitle
 	              )
+	            ),
+	            _react2.default.createElement(
+	              _gatsbyLink2.default,
+	              { to: '/o-que-e-a-bolha', activeClassName: 'active', onClick: function onClick() {
+	                  return _this2.closeMenu();
+	                } },
+	              'o que \xE9'
 	            ),
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
@@ -11147,4 +11147,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-711fef497c0ed883781f.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-2719351d1b9010952985.js.map
