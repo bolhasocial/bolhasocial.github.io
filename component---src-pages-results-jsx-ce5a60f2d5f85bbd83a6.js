@@ -44912,7 +44912,17 @@ webpackJsonp([43947561610677],[
 	    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 	
 	    _this.radiusScale = function (value) {
-	      var fx = d3.scaleSqrt().range([100, 200]).domain([_this.minValue, _this.maxValue]);
+	      var range = [80, 180];
+	
+	      if (_this.forBigDesktopUp) {
+	        range = [90, 190];
+	      }
+	
+	      if (_this.forHugeDesktopUp) {
+	        range = [100, 200];
+	      }
+	
+	      var fx = d3.scaleSqrt().range(range).domain([_this.minValue, _this.maxValue]);
 	
 	      return fx(value);
 	    };
@@ -44941,11 +44951,12 @@ webpackJsonp([43947561610677],[
 	      var texts = data.map(function (item, index) {
 	        var compensatedPercentage = _this.getBalancedPercentage(item.categoryPercentage);
 	        var scale = _this.radiusScale(compensatedPercentage);
-	        var fontSize = scale > 80 ? 24 : 10;
-	        var fontSizePercentage = scale > 80 ? 32 : 20;
+	        var fontSize = scale > 100 ? 24 : 10;
+	        var fontSizePercentage = scale > 90 ? 32 : 20;
 	        var percentage = item.categoryPercentage.toFixed(2) + '%';
 	        var dy = scale > 80 ? 28 : 18;
 	        var name = item.id;
+	
 	        return _react2.default.createElement(
 	          'g',
 	          {
@@ -44984,8 +44995,10 @@ webpackJsonp([43947561610677],[
 	    _this.minValue = 10;
 	    _this.maxValue = 100;
 	    _this.mounted = false;
-	
-	    _this.state = { data: [], width: null, height: null };
+	    _this.forDesktopUp = window.innerWidth >= 1200;
+	    _this.forBigDesktopUp = window.innerWidth >= 1400;
+	    _this.forHugeDesktopUp = window.innerWidth >= 1600;
+	    _this.state = { innerWidth: 0, data: [], width: null, height: null };
 	
 	    _this.radiusScale = _this.radiusScale.bind(_this);
 	    _this.simulatePositions = _this.simulatePositions.bind(_this);
@@ -45025,9 +45038,9 @@ webpackJsonp([43947561610677],[
 	      case value < 1:
 	        return 30;
 	      case value < 3:
-	        return 800;
-	      case value < 3:
-	        return 900;
+	        return 300;
+	      case value < 5:
+	        return 700;
 	      case value < 10:
 	        return 1000;
 	      default:
@@ -60731,4 +60744,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-6cec5a5a4a4c7ceda766.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-ce5a60f2d5f85bbd83a6.js.map
