@@ -10714,6 +10714,13 @@ webpackJsonp([79611799117203,60335399758886],{
 	            { isOpen: this.state.menuOpen, onStateChange: this.handleStateChange, width: '100%' },
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
+	              { to: '/o-que-e-a-bolha', activeClassName: 'active', onClick: function onClick() {
+	                  return _this2.closeMenu();
+	                } },
+	              'o que \xE9'
+	            ),
+	            _react2.default.createElement(
+	              _gatsbyLink2.default,
 	              { to: '/', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
@@ -10725,17 +10732,10 @@ webpackJsonp([79611799117203,60335399758886],{
 	            ),
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
-	              { to: '/o-que-e-a-bolha', activeClassName: 'active', onClick: function onClick() {
-	                  return _this2.closeMenu();
-	                } },
-	              'o que \xE9'
-	            ),
-	            _react2.default.createElement(
-	              _gatsbyLink2.default,
 	              { to: '/compartilhe', activeClassName: 'active', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
-	              'equipe'
+	              'compartilhe'
 	            ),
 	            _react2.default.createElement(
 	              _gatsbyLink2.default,
@@ -10749,7 +10749,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	              { to: '/contato', activeClassName: 'active', onClick: function onClick() {
 	                  return _this2.closeMenu();
 	                } },
-	              'equipe'
+	              'contato'
 	            )
 	          )
 	        )
@@ -11147,4 +11147,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-991963291e4a3af7a587.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-711fef497c0ed883781f.js.map
