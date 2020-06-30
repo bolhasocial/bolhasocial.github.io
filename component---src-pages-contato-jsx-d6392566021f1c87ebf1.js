@@ -1,13 +1,13 @@
 webpackJsonp([134177184806937],{
 
-/***/ 749:
+/***/ 756:
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "static/contact-hero2.532f3ed8.png";
 
 /***/ }),
 
-/***/ 394:
+/***/ 406:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -23,7 +23,7 @@ webpackJsonp([134177184806937],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _FormModule = __webpack_require__(531);
+	var _FormModule = __webpack_require__(543);
 	
 	var _FormModule2 = _interopRequireDefault(_FormModule);
 	
@@ -56,9 +56,9 @@ webpackJsonp([134177184806937],{
 	
 	  return _react2.default.createElement(
 	    'form',
-	    { name: 'bolha', enctype: 'text/plain', onSubmit: handleSubmit },
+	    { className: _FormModule2.default.form, name: 'bolha', encType: 'text/plain', onSubmit: handleSubmit },
 	    _react2.default.createElement('input', {
-	      'for': 'bolha',
+	      htmlFor: 'bolha',
 	      value: name,
 	      onChange: function onChange(event) {
 	        event.persist();
@@ -68,7 +68,7 @@ webpackJsonp([134177184806937],{
 	      placeholder: 'Nome'
 	    }),
 	    _react2.default.createElement('input', {
-	      'for': 'bolha',
+	      htmlFor: 'bolha',
 	      onChange: function onChange(event) {
 	        event.persist();
 	        setEmail(event.target.value);
@@ -79,7 +79,7 @@ webpackJsonp([134177184806937],{
 	      placeholder: 'Email'
 	    }),
 	    _react2.default.createElement('input', {
-	      'for': 'bolha',
+	      htmlFor: 'bolha',
 	      onChange: function onChange(event) {
 	        event.persist();
 	        setPhone(event.target.value);
@@ -90,7 +90,7 @@ webpackJsonp([134177184806937],{
 	      placeholder: 'Telefone'
 	    }),
 	    _react2.default.createElement('textarea', {
-	      'for': 'bolha',
+	      htmlFor: 'bolha',
 	      value: message,
 	      onChange: function onChange(event) {
 	        event.persist();
@@ -106,15 +106,15 @@ webpackJsonp([134177184806937],{
 
 /***/ }),
 
-/***/ 531:
+/***/ 543:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"inputTextarea":"src-components-Form----Form-module---inputTextarea---Zc3H1","inputText":"src-components-Form----Form-module---inputText---3y07Q"};
+	module.exports = {"inputTextarea":"src-components-Form----Form-module---inputTextarea---Zc3H1","inputText":"src-components-Form----Form-module---inputText---3y07Q","form":"src-components-Form----Form-module---form---1d0sK"};
 
 /***/ }),
 
-/***/ 407:
+/***/ 419:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -129,15 +129,15 @@ webpackJsonp([134177184806937],{
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
-	var _Form = __webpack_require__(394);
+	var _Form = __webpack_require__(406);
 	
 	var _Form2 = _interopRequireDefault(_Form);
 	
-	var _reactHelmet = __webpack_require__(22);
+	var _reactHelmet = __webpack_require__(24);
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	var _Hero = __webpack_require__(110);
+	var _Hero = __webpack_require__(117);
 	
 	var _Hero2 = _interopRequireDefault(_Hero);
 	
@@ -145,7 +145,7 @@ webpackJsonp([134177184806937],{
 	
 	var _SiteConfig2 = _interopRequireDefault(_SiteConfig);
 	
-	var _contactHero = __webpack_require__(749);
+	var _contactHero = __webpack_require__(756);
 	
 	var _contactHero2 = _interopRequireDefault(_contactHero);
 	
@@ -191,4 +191,4 @@ webpackJsonp([134177184806937],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-pages-contato-jsx-f956f6296e77f8ad90ce.js.map
+//# sourceMappingURL=component---src-pages-contato-jsx-d6392566021f1c87ebf1.js.map
