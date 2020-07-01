@@ -20955,7 +20955,7 @@ webpackJsonp([43947561610677],[
 	function getCategoryTitle(title) {
 	  switch (title) {
 	    case 'ALIMENTAÇÃO E SAÚDE':
-	      return 'ALIMENTÇÃO';
+	      return 'ALIMENTAÇÃO';
 	    default:
 	      return title;
 	  }
@@ -44966,6 +44966,13 @@ webpackJsonp([43947561610677],[
 	      title: 'VIAGENS',
 	      description: 'São captados assuntos e temas descritos nas categorias da url amigável dos sites acessados. As palavras chaves como viagens, mochilão, LATAM, GOL, AZUL, hotel urbano, Europa, Estados Unidos, América Latina, entre outras. Atualmente, a leitura do algoritmo está focada na categoria macro dos sites.'
 	    }];
+	
+	    var sortedHistoryData = historyData && (0, _sortBy2.default)(historyData.totalPerCategory, function (item) {
+	      return item.categoryTitle;
+	    });
+	    var sortedDescriptions = (0, _sortBy2.default)(descriptions, function (item) {
+	      return item.title;
+	    });
 	    console.log('historyData', historyData);
 	    console.log('items', descriptions);
 	
@@ -44983,15 +44990,15 @@ webpackJsonp([43947561610677],[
 	        _react2.default.createElement(
 	          'div',
 	          { className: _CategoriesSliderModule2.default.categoriesList },
-	          historyData && (0, _sortBy2.default)(historyData.totalPerCategory, function (item) {
-	            return item.categoryTitle;
-	          }).map(function (category, index) {
+	          sortedHistoryData.map(function (category, index) {
 	            return _react2.default.createElement(
 	              'p',
 	              {
 	                key: 'list-' + category.categoryTitle,
 	                onClick: function onClick() {
-	                  _this2.slider.slickGoTo(index, true);
+	                  _this2.slider.slickGoTo(sortedDescriptions.findIndex(function (item) {
+	                    return item.title === category.categoryTitle;
+	                  }), true);
 	                },
 	                className: _CategoriesSliderModule2.default.categoryTitleSmall,
 	                style: {
@@ -45025,9 +45032,7 @@ webpackJsonp([43947561610677],[
 	          _extends({ ref: function ref(c) {
 	              return _this2.slider = c;
 	            } }, settings),
-	          (0, _sortBy2.default)(descriptions, function (item) {
-	            return item.title;
-	          }).map(function (item) {
+	          sortedDescriptions.map(function (item) {
 	            return _react2.default.createElement(_CategoryDescription2.default, {
 	              key: 'slider-' + item.title,
 	              image: item.image,
@@ -61443,4 +61448,4 @@ webpackJsonp([43947561610677],[
 
 /***/ })
 ]);
-//# sourceMappingURL=component---src-pages-results-jsx-48442c4841636016e09f.js.map
+//# sourceMappingURL=component---src-pages-results-jsx-3ad1cb544ec25f883aef.js.map
